@@ -1,0 +1,40 @@
+.mainbody{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 23px 23px;
+  margin-top: 100px;
+}
+#app {
+    margin-top: 40px;
+  }
+   
+  #progressInput {
+    margin: 20px auto;
+    width: 30%;
+  }
+  
+  .circle-background,
+  .circle-progress {
+    fill: none;
+  }
+  
+  .circle-background {
+    stroke: #ddd;
+  }
+  
+  .circle-progress {
+    stroke: red;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  .circle-text {
+    font-size: 32px;
+    font-weight: bold;
+    fill: red;
+  }
+  .pricetag{
+      display: flex;
+      justify-content: space-around;
+  }

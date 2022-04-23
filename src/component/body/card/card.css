@@ -1,0 +1,83 @@
+.maincard {
+    box-shadow: 4px 4px 8px black;
+    max-width: 400px;
+    height: auto;
+    margin-left: 22px;
+    margin-right: 22px;
+   border-radius: 8px;
+    margin-top: 42px;
+}
+p{
+    word-break: break-all 
+}
+.maincard div{
+    margin-top: 15px;
+    padding: 10px;
+}
+.maincard .topdiv{
+    margin-top: 0px !important;
+}
+.topdiv{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.maincard{
+ 
+}
+.left
+{
+    padding: 5px;
+}
+.left h2,
+.left h3,
+.left p{
+    padding: 5px;
+}
+.left p{
+    font-weight: 500;
+}
+.down .plans{
+  color:  white;
+  background-color: blue;
+  border-radius: 0px 15px 15px 0px;
+   display: inline;
+   padding: 6px;
+   font-size: 12px;
+}
+.down h3,.down p{
+    padding: 6px;
+
+}
+.down p{
+    font-weight:500;
+  
+}
+.down .discount{
+    color: blue;
+    font-weight: 700;
+}
+.pricetag p{
+    color: red;
+    font-weight: 700;
+}
+.pricetag h2{
+    
+}
+.pricetag h3{
+    text-decoration: line-through;
+}
+.bottombutton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.bottombutton input{
+    width: 90%; 
+   height: 39px;
+   font-size:18px;
+   color: white;
+   background-color: blue;
+  border-radius: 5px;
+
+}
